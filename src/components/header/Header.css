@@ -1,0 +1,42 @@
+
+.logoName{
+  padding: 15px;
+  font-weight: 600;
+  font-family: "sans-serif" ,"Poppins" ;
+}
+.logoName span{
+  color: red;
+}
+a{
+  text-decoration: none;
+  color: rgb(238, 157, 50);
+}
+a:hover{
+  color: rgb(238, 157, 50);
+} 
+
+.menu {
+  display: flex;
+  gap: 1.5rem;
+  align-items: center;
+  justify-content: center;
+  font-weight: 500;
+  list-style: none;
+}
+
+.nav_links {
+  color: rgb(19, 19, 19);
+  margin: 5px;
+  padding: 5px;
+}
+.nav_links:hover {
+  cursor: pointer;
+  color: rgb(238, 157, 50);
+}
+.user_nav_links:hover {
+  cursor: pointer;
+  color: rgb(232, 109, 109);
+}
+
+
+
