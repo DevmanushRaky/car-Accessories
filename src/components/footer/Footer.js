@@ -6,9 +6,7 @@ import WhatsAppIcon from '@mui/icons-material/WhatsApp';
 import EmailIcon from '@mui/icons-material/Email';
 import CallIcon from '@mui/icons-material/Call';
 import FacebookIcon from '@mui/icons-material/Facebook';
-
 import InstagramIcon from '@mui/icons-material/Instagram';
-
 import { YouTube } from '@mui/icons-material';
 function Footer() {
   return (
@@ -19,10 +17,19 @@ function Footer() {
           <Row className='footer_links'>
 
             <Col sm={4}>
-              <h4>USEFUL LINKS</h4>
+              <h4>More from Us</h4>
               <ul type="none">
                 <li>
-                  <Link to="/products" className='supportLink'>Products</Link>
+                  <Link to="/products" className='supportLink'>Thar Hood</Link>
+                </li>
+                <li>
+                  <Link to="/products" className='supportLink'>Maruti Hood</Link>
+                </li>
+                <li>
+                  <Link to="/products" className='supportLink'>Tata Magic Hood</Link>
+                </li>
+                <li>
+                  <Link to="/products" className='supportLink'>Parking Cover</Link>
                 </li>
                 <li>
                   <Link to="/about" className='supportLink'>About</Link>

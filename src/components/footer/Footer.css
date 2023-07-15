@@ -1,6 +1,9 @@
 .footer {
-  background-color: white;
+  background-color: #F3EBE9 ;
   color: black;
+}
+.footer_container{
+  padding: 2px;
 }
 .footer_content {
   padding: 20px;
@@ -40,7 +43,7 @@ li {
 
 
 .supportLink:hover {
-  color: rgb(238, 157, 50);
+  color: red;
   cursor: pointer;
 }
 
