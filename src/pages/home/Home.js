@@ -13,6 +13,7 @@ import Col from 'react-bootstrap/Col';
 import Card from 'react-bootstrap/Card';
 import ListGroup from 'react-bootstrap/ListGroup';
 import CarBodyCover from "../../assests/carbodycover.jpg"
+import BikeShelter from "../../assests/bikeshelter.jpg"
 import Button from 'react-bootstrap/Button';
 
 function Home() {
@@ -70,8 +71,8 @@ function Home() {
         <Container>
           <h4 className='our-product-heading'> Our Products</h4>
           <Row>
-            <Col>
-              <Card>
+            <Col xs={12} md={4} lg={4}>
+              <Card className='common-card'>
                 <Card.Img variant="top" src={CarBodyCover} />
                 <Card.Body>
                   <Card.Title>Top Hood Covers</Card.Title>
@@ -93,11 +94,33 @@ function Home() {
               </Card>
             </Col>
 
-            <Col>
-              <Card>
+            <Col xs={12} md={4} lg={4}>
+              <Card className='common-card'>
                 <Card.Img variant="top" src={CarBodyCover} />
                 <Card.Body>
-                  <Card.Title>Car Body Covers</Card.Title>
+                  <Card.Title>Car Shelter</Card.Title>
+                  <Card.Text>
+                    Keep your car protected and looking pristine with our high-quality car body covers.
+                  </Card.Text>
+                </Card.Body>
+                <ListGroup className="list-group-flush">
+                  <ListGroup.Item>Full coverage for maximum protection</ListGroup.Item>
+                  <ListGroup.Item>Waterproof and resistant to UV rays</ListGroup.Item>
+                  <ListGroup.Item>Soft inner lining to prevent scratches</ListGroup.Item>
+                </ListGroup>
+                <Card.Body>
+                  <Link to="/products">
+                    <Button variant="warning">Full Details</Button>
+                  </Link>
+                </Card.Body>
+              </Card>
+            </Col>
+
+            <Col xs={12} md={4} lg={4}>
+              <Card className='common-card'>
+                <Card.Img variant="top" src={BikeShelter} />
+                <Card.Body>
+                  <Card.Title> Bike Shelter </Card.Title>
                   <Card.Text>
                     Keep your car protected and looking pristine with our high-quality car body covers.
                   </Card.Text>
@@ -118,9 +141,9 @@ function Home() {
 
 
           <Row>
-            <h4 className='our-product-heading'> Customer Testonomials </h4>
-            <Col>
-              <Card >
+            <h4 className='our-product-heading'> Customer Reviews </h4>
+            <Col xs={12} md={4} lg={4}>
+              <Card className='common-card' >
                 <Card.Body>
                   <Card.Title> Adarsh Srivastava </Card.Title>
                   <Card.Subtitle className="mb-2 text-muted">Delhi</Card.Subtitle>
@@ -131,8 +154,8 @@ function Home() {
               </Card>
             </Col>
 
-            <Col>
-              <Card>
+            <Col xs={12} md={4} lg={4}>
+              <Card className='common-card'>
                 <Card.Body>
                   <Card.Title> Rakesh Yadav </Card.Title>
                   <Card.Subtitle className="mb-2 text-muted">Lucknow</Card.Subtitle>
@@ -142,31 +165,89 @@ function Home() {
                 </Card.Body>
               </Card>
             </Col>
-            <Col>
-              <Card>
+            <Col xs={12} md={4} lg={4} >
+              <Card className='common-card'>
                 <Card.Body>
                   <Card.Title> Abhishek Patel </Card.Title>
-                  <Card.Subtitle className="mb-2 text-muted">Lucknow</Card.Subtitle>
+                  <Card.Subtitle className="mb-2 text-muted">Pune</Card.Subtitle>
                   <Card.Text>
                     The car body covers are equally impressive. They provide full coverage for my vehicle and have a soft inner lining that prevents any scratches or damage. I appreciate the durability of these covers, as they have withstood various weather conditions.
                   </Card.Text>
                 </Card.Body>
               </Card>
             </Col>
-            <Col>
-              <Card>
+            <Col xs={12} md={4} lg={4}>
+              <Card className='common-card'>
                 <Card.Body>
                   <Card.Title> Jordi Singh </Card.Title>
-                  <Card.Subtitle className="mb-2 text-muted">Lucknow</Card.Subtitle>
+                  <Card.Subtitle className="mb-2 text-muted">Mumbai</Card.Subtitle>
                   <Card.Text>
                     Feel free to customize this review according to your specific product offerings and customer experiences. It's important to highlight the quality of your products, the user-friendly website, prompt delivery, and excellent customer service.
                   </Card.Text>
                 </Card.Body>
               </Card>
             </Col>
-
-
           </Row>
+
+
+
+
+
+
+
+          <div>
+            <h4 className="our-product-heading">Customer Reviews</h4>
+            <Carousel>
+              <Carousel.Item>
+                <Card className="common-card">
+                <Card.Body>
+                  <Card.Title> Jordi Singh </Card.Title>
+                  <Card.Subtitle className="mb-2 text-muted">Mumbai</Card.Subtitle>
+                  <Card.Text>
+                    Feel free to customize this review according to your specific product offerings and customer experiences. It's important to highlight the quality of your products, the user-friendly website, prompt delivery, and excellent customer service.
+                  </Card.Text>
+                </Card.Body>
+                </Card>
+              </Carousel.Item>
+              <Carousel.Item>
+                <Card className="common-card">
+                <Card.Body>
+                  <Card.Title> Abhishek Patel </Card.Title>
+                  <Card.Subtitle className="mb-2 text-muted">Pune</Card.Subtitle>
+                  <Card.Text>
+                    The car body covers are equally impressive. They provide full coverage for my vehicle and have a soft inner lining that prevents any scratches or damage. I appreciate the durability of these covers, as they have withstood various weather conditions.
+                  </Card.Text>
+                </Card.Body>
+                </Card>
+              </Carousel.Item>
+              <Carousel.Item>
+                <Card className="common-card">
+                <Card.Body>
+                  <Card.Title> Rakesh Yadav </Card.Title>
+                  <Card.Subtitle className="mb-2 text-muted">Lucknow</Card.Subtitle>
+                  <Card.Text>
+                    The car top hood covers I bought are fantastic. They fit my car perfectly and provide excellent protection against the elements. The covers are made of high-quality materials, and the waterproof feature has proven to be extremely effective during rainy days.
+                  </Card.Text>
+                </Card.Body>
+                </Card>
+              </Carousel.Item>
+              <Carousel.Item>
+                <Card className="common-card">
+                <Card.Body>
+                  <Card.Title> Adarsh Srivastava </Card.Title>
+                  <Card.Subtitle className="mb-2 text-muted">Delhi</Card.Subtitle>
+                  <Card.Text>
+                    "Absolutely love the website and shop! I recently purchased car top hood covers and car body covers from them, and I couldn't be happier with my purchase. The website is user-friendly and provides all the necessary information about the products.
+                  </Card.Text>
+                </Card.Body>
+                </Card>
+              </Carousel.Item>
+            </Carousel>
+          </div>
+
+
+
+
         </Container>
       </div>
 
