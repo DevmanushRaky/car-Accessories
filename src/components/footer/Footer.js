@@ -20,16 +20,13 @@ function Footer() {
               <h4>More from Us</h4>
               <ul type="none">
                 <li>
-                  <Link to="/products" className='supportLink'>Thar Hood</Link>
+                  <Link to="/hood" className='supportLink'> Hood </Link>
                 </li>
                 <li>
-                  <Link to="/products" className='supportLink'>Maruti Hood</Link>
+                  <Link to="/carshelter" className='supportLink'> Car Shelter </Link>
                 </li>
                 <li>
-                  <Link to="/products" className='supportLink'>Tata Magic Hood</Link>
-                </li>
-                <li>
-                  <Link to="/products" className='supportLink'>Parking Cover</Link>
+                  <Link to="/bikeshelter" className='supportLink'> Bike Shelter </Link>
                 </li>
                 <li>
                   <Link to="/about" className='supportLink'>About</Link>

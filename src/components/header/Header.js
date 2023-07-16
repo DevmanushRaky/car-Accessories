@@ -45,7 +45,9 @@ function Header() {
                                 <NavDropdown.Item className="user_nav_links" as={Link} to="/"> Product 3 </NavDropdown.Item>
                             </NavDropdown> */}
 
-                            <Nav.Link className="nav_links" as={Link} to="/products" > Products </Nav.Link>
+                            <Nav.Link className="nav_links" as={Link} to="/hood" > Hood </Nav.Link>
+                            <Nav.Link className="nav_links" as={Link} to="/carshelter" > Car Shelter </Nav.Link>
+                            <Nav.Link className="nav_links" as={Link} to="/bikeshelter" > Bike Shelter </Nav.Link>
                             <Nav.Link className="nav_links" as={Link} to="/about" > About </Nav.Link>
                             <Nav.Link className="nav_links" as={Link} to="/contact"> Contact </Nav.Link>
                             <ul type="none" className="header-social-links">

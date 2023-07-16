@@ -75,7 +75,7 @@ function Home() {
               <Card className='common-card'>
                 <Card.Img variant="top" src={CarBodyCover} />
                 <Card.Body>
-                  <Card.Title>Top Hood Covers</Card.Title>
+                  <Card.Title> Hood </Card.Title>
                   <Card.Text>
                     Choose from a variety of top hood covers to protect your car's hood
                     in style.
@@ -87,7 +87,7 @@ function Home() {
                   <ListGroup.Item>Easy installation and secure fit</ListGroup.Item>
                 </ListGroup>
                 <Card.Body>
-                  <Link to="/products">
+                  <Link to="/hood">
                     <Button variant="warning">Full Details</Button>
                   </Link>
                 </Card.Body>
@@ -109,7 +109,7 @@ function Home() {
                   <ListGroup.Item>Soft inner lining to prevent scratches</ListGroup.Item>
                 </ListGroup>
                 <Card.Body>
-                  <Link to="/products">
+                  <Link to="/carshelter">
                     <Button variant="warning">Full Details</Button>
                   </Link>
                 </Card.Body>
@@ -131,7 +131,7 @@ function Home() {
                   <ListGroup.Item>Soft inner lining to prevent scratches</ListGroup.Item>
                 </ListGroup>
                 <Card.Body>
-                  <Link to="/products">
+                  <Link to="/bikeshelter">
                     <Button variant="warning">Full Details</Button>
                   </Link>
                 </Card.Body>
@@ -189,17 +189,13 @@ function Home() {
             </Col>
           </Row>
 
-
-
-
-
-
-
-          <div>
+{/* 
+          <div className=' customer-carousel'>
             <h4 className="our-product-heading">Customer Reviews</h4>
             <Carousel>
+
               <Carousel.Item>
-                <Card className="common-card">
+                <Card>
                 <Card.Body>
                   <Card.Title> Jordi Singh </Card.Title>
                   <Card.Subtitle className="mb-2 text-muted">Mumbai</Card.Subtitle>
@@ -209,8 +205,9 @@ function Home() {
                 </Card.Body>
                 </Card>
               </Carousel.Item>
+
               <Carousel.Item>
-                <Card className="common-card">
+                <Card >
                 <Card.Body>
                   <Card.Title> Abhishek Patel </Card.Title>
                   <Card.Subtitle className="mb-2 text-muted">Pune</Card.Subtitle>
@@ -220,8 +217,9 @@ function Home() {
                 </Card.Body>
                 </Card>
               </Carousel.Item>
+
               <Carousel.Item>
-                <Card className="common-card">
+                <Card >
                 <Card.Body>
                   <Card.Title> Rakesh Yadav </Card.Title>
                   <Card.Subtitle className="mb-2 text-muted">Lucknow</Card.Subtitle>
@@ -231,8 +229,9 @@ function Home() {
                 </Card.Body>
                 </Card>
               </Carousel.Item>
+
               <Carousel.Item>
-                <Card className="common-card">
+                <Card>
                 <Card.Body>
                   <Card.Title> Adarsh Srivastava </Card.Title>
                   <Card.Subtitle className="mb-2 text-muted">Delhi</Card.Subtitle>
@@ -243,10 +242,7 @@ function Home() {
                 </Card>
               </Carousel.Item>
             </Carousel>
-          </div>
-
-
-
+          </div> */}
 
         </Container>
       </div>
