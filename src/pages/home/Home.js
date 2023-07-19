@@ -12,7 +12,8 @@ import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import Card from 'react-bootstrap/Card';
 import ListGroup from 'react-bootstrap/ListGroup';
-import CarBodyCover from "../../assests/carbodycover.jpg"
+import Hoods from "../../assests/hood.webp"
+import CarShelter from "../../assests/carshelter.webp"
 import BikeShelter from "../../assests/bikeshelter.jpg"
 import Button from 'react-bootstrap/Button';
 
@@ -28,7 +29,7 @@ function Home() {
           />
           <Carousel.Caption>
             <h5>"Shield Your Vehicle with Quality Covers"</h5>
-            <span className='carousel-text'>VJ HOOD COMPANY</span>
+            <span className='carousel-text'> VJ SMART CAR & BIKE SHELTER HOOD COMPANY</span>
           </Carousel.Caption>
         </Carousel.Item>
         <Carousel.Item>
@@ -39,7 +40,7 @@ function Home() {
           />
           <Carousel.Caption>
             <h5>"Defend Your Car's Shine with Our Covers."</h5>
-            <span className='carousel-text'>VJ HOOD COMPANY</span>
+            <span className='carousel-text'> VJ SMART CAR & BIKE SHELTER HOOD COMPANY</span>
           </Carousel.Caption>
         </Carousel.Item>
         <Carousel.Item>
@@ -50,7 +51,7 @@ function Home() {
           />
           <Carousel.Caption>
             <h5>"Weatherproof Your Vehicle with Our Top Hood Covers."</h5>
-            <span className='carousel-text'>VJ HOOD COMPANY</span>
+            <span className='carousel-text'> VJ SMART CAR & BIKE SHELTER HOOD COMPANY</span>
           </Carousel.Caption>
         </Carousel.Item>
         <Carousel.Item>
@@ -61,7 +62,7 @@ function Home() {
           />
           <Carousel.Caption>
             <h5>"Keep Your Car Looking Brand New!"</h5>
-            <span className='carousel-text'>VJ HOOD COMPANY</span>
+            <span className='carousel-text'> VJ SMART CAR & BIKE SHELTER HOOD COMPANY</span>
           </Carousel.Caption>
         </Carousel.Item>
       </Carousel>
@@ -73,11 +74,11 @@ function Home() {
           <Row>
             <Col xs={12} md={4} lg={4}>
               <Card className='common-card'>
-                <Card.Img variant="top" src={CarBodyCover} />
+                <Card.Img variant="top" src={Hoods} />
                 <Card.Body>
-                  <Card.Title> Hood </Card.Title>
+                  <Card.Title> Hood - Soft Top </Card.Title>
                   <Card.Text>
-                    Choose from a variety of top hood covers to protect your car's hood
+                    Choose from a variety of top hood covers to protect your car's hood like Jeepcy , Thar , Magic (School Van)
                     in style.
                   </Card.Text>
                 </Card.Body>
@@ -88,7 +89,7 @@ function Home() {
                 </ListGroup>
                 <Card.Body>
                   <Link to="/hood">
-                    <Button variant="warning">Full Details</Button>
+                    <Button variant="warning">See full details</Button>
                   </Link>
                 </Card.Body>
               </Card>
@@ -96,11 +97,11 @@ function Home() {
 
             <Col xs={12} md={4} lg={4}>
               <Card className='common-card'>
-                <Card.Img variant="top" src={CarBodyCover} />
+                <Card.Img variant="top" src={CarShelter} />
                 <Card.Body>
-                  <Card.Title>Car Shelter</Card.Title>
+                  <Card.Title>Smart Car Shelter</Card.Title>
                   <Card.Text>
-                    Keep your car protected and looking pristine with our high-quality car body covers.
+                    Keep your car protected and looking pristine with our high-quality car shelter.
                   </Card.Text>
                 </Card.Body>
                 <ListGroup className="list-group-flush">
@@ -110,7 +111,7 @@ function Home() {
                 </ListGroup>
                 <Card.Body>
                   <Link to="/carshelter">
-                    <Button variant="warning">Full Details</Button>
+                    <Button variant="warning">See full details</Button>
                   </Link>
                 </Card.Body>
               </Card>
@@ -122,7 +123,7 @@ function Home() {
                 <Card.Body>
                   <Card.Title> Bike Shelter </Card.Title>
                   <Card.Text>
-                    Keep your car protected and looking pristine with our high-quality car body covers.
+                    Keep your bike protected and looking pristine with our high-quality bike shelters.
                   </Card.Text>
                 </Card.Body>
                 <ListGroup className="list-group-flush">
@@ -132,7 +133,7 @@ function Home() {
                 </ListGroup>
                 <Card.Body>
                   <Link to="/bikeshelter">
-                    <Button variant="warning">Full Details</Button>
+                    <Button variant="warning">See full details</Button>
                   </Link>
                 </Card.Body>
               </Card>

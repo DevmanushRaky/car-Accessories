@@ -34,32 +34,28 @@ function Header() {
 
                     <Navbar.Collapse id="basic-navbar-nav" >
                         <Nav className="me-auto menu">
-                            {/* <NavDropdown className="nav_links" title="Products" id="nav-dropdown" noCaret>
-                                <NavDropdown.Header>CATEGORY 1</NavDropdown.Header>
-                                <NavDropdown.Item className="user_nav_links" as={Link} to="/"> Product 1 </NavDropdown.Item>
-                                <NavDropdown.Item className="user_nav_links" as={Link} to="/"> Product 2 </NavDropdown.Item>
-                                <NavDropdown.Item className="user_nav_links" as={Link} to="/"> Product 3 </NavDropdown.Item>
-                                <NavDropdown.Header>CATEGORY 2</NavDropdown.Header>
-                                <NavDropdown.Item className="user_nav_links" as={Link} to="/"> Product 1 </NavDropdown.Item>
-                                <NavDropdown.Item className="user_nav_links" as={Link} to="/"> Product 2 </NavDropdown.Item>
-                                <NavDropdown.Item className="user_nav_links" as={Link} to="/"> Product 3 </NavDropdown.Item>
-                            </NavDropdown> */}
+                            <NavDropdown className="nav_links " title="Hoods" id="nav-dropdown" noCaret>
+                                <NavDropdown.Item className="user_nav_links" as={Link} to="/hoods">Jeepsy - Full </NavDropdown.Item>
+                                <NavDropdown.Item className="user_nav_links" as={Link} to="/hoods">Jeepsy - Half </NavDropdown.Item>
+                                <NavDropdown.Item className="user_nav_links" as={Link} to="/hoods">CRD Thar</NavDropdown.Item>
+                                <NavDropdown.Item className="user_nav_links" as={Link} to="/hoods">TATA Maruti</NavDropdown.Item>
+                            </NavDropdown>
 
-                            <Nav.Link className="nav_links" as={Link} to="/hood" > Hood </Nav.Link>
-                            <Nav.Link className="nav_links" as={Link} to="/carshelter" > Car Shelter </Nav.Link>
-                            <Nav.Link className="nav_links" as={Link} to="/bikeshelter" > Bike Shelter </Nav.Link>
+                            {/* <Nav.Link className="nav_links" as={Link} to="/hood" > Hoods </Nav.Link> */}
+                            <Nav.Link className="nav_links" as={Link} to="/carshelters" > Car Shelters </Nav.Link>
+                            <Nav.Link className="nav_links" as={Link} to="/bikeshelters" > Bike Shelters </Nav.Link>
                             <Nav.Link className="nav_links" as={Link} to="/about" > About </Nav.Link>
                             <Nav.Link className="nav_links" as={Link} to="/contact"> Contact </Nav.Link>
                             <ul type="none" className="header-social-links">
-                               
+
                                 <li>
-                                    <Link  to="https://www.facebook.com/" target="_blank"> <FacebookIcon className="socialheaderlink facebooklink" /></Link>
+                                    <Link to="https://www.facebook.com/" target="_blank"> <FacebookIcon className="socialheaderlink facebooklink" /></Link>
                                 </li>
                                 <li>
                                     <Link to="https://youtube.com/" target="_blank"><YouTube className="socialheaderlink youtubelink" /> </Link>
                                 </li>
                                 <li>
-                                    <Link  to="https://www.instagram.com/" target="_blank"><InstagramIcon className="socialheaderlink instagramlink" /></Link>
+                                    <Link to="https://www.instagram.com/" target="_blank"><InstagramIcon className="socialheaderlink instagramlink" /></Link>
                                 </li>
                             </ul>
                         </Nav>

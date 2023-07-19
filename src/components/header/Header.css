@@ -30,6 +30,17 @@ a:hover{
   margin: 5px;
   padding: 5px;
 }
+/* hood button css start */
+.nav-link {
+  color: #f8f9fa;
+}
+
+.nav-link:hover {
+  cursor: pointer;
+  color: rgb(238, 66, 50);
+}
+/* hood button css end */
+
 .nav_links:hover {
   cursor: pointer;
   color: rgb(238, 66, 50);

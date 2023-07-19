@@ -16,17 +16,31 @@ function Footer() {
           <hr />
           <Row className='footer_links'>
 
-            <Col sm={4}>
+            <Col sm={3}>
+              <h4>Hood - Soft top</h4>
+              <ul type="none">
+                <li>
+                  <Link to="/hoods" className='supportLink'> Jeepsy - Full </Link>
+                </li>
+                <li>
+                  <Link to="/hoods" className='supportLink'> Jeepsy - Half </Link>
+                </li>
+                <li>
+                  <Link to="/hoods" className='supportLink'> CRD Thar </Link>
+                </li>
+                <li>
+                  <Link to="/hoods" className='supportLink'> TATA Maruti </Link>
+                </li>
+              </ul>
+            </Col>
+            <Col sm={3}>
               <h4>More from Us</h4>
               <ul type="none">
                 <li>
-                  <Link to="/hood" className='supportLink'> Hood </Link>
+                  <Link to="/carshelters" className='supportLink'> Car Shelters </Link>
                 </li>
                 <li>
-                  <Link to="/carshelter" className='supportLink'> Car Shelter </Link>
-                </li>
-                <li>
-                  <Link to="/bikeshelter" className='supportLink'> Bike Shelter </Link>
+                  <Link to="/bikeshelters" className='supportLink'> Bike Shelters </Link>
                 </li>
                 <li>
                   <Link to="/about" className='supportLink'>About</Link>
@@ -37,7 +51,7 @@ function Footer() {
               </ul>
             </Col>
 
-            <Col sm={4}>
+            <Col sm={3}>
               <h4>HELP & CONTACT</h4>
               <ul type="none">
                 <li>
@@ -52,7 +66,7 @@ function Footer() {
               </ul>
             </Col>
 
-            <Col sm={4} >
+            <Col sm={3} >
               <div>
                 <h4>Follow Us</h4>
                 <ul type="none">
