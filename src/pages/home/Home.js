@@ -139,11 +139,12 @@ function Home() {
               </Card>
             </Col>
           </Row>
-
+          
+{/* Our work section need to develope some videos */}
 
           <Row>
             <h4 className='our-product-heading'> Customer Reviews </h4>
-            <Col xs={12} md={4} lg={4}>
+            <Col xs={12} md={4} lg={3}>
               <Card className='common-card' >
                 <Card.Body>
                   <Card.Title> Adarsh Srivastava </Card.Title>
@@ -155,18 +156,18 @@ function Home() {
               </Card>
             </Col>
 
-            <Col xs={12} md={4} lg={4}>
+            <Col xs={12} md={4} lg={3}>
               <Card className='common-card'>
                 <Card.Body>
                   <Card.Title> Rakesh Yadav </Card.Title>
                   <Card.Subtitle className="mb-2 text-muted">Lucknow</Card.Subtitle>
                   <Card.Text>
-                    The car top hood covers I bought are fantastic. They fit my car perfectly and provide excellent protection against the elements. The covers are made of high-quality materials, and the waterproof feature has proven to be extremely effective during rainy days.
+                    The car top hood covers I bought are fantastic. They fit my car perfectly and provide excellent protection. The covers are made of high-quality materials, and the waterproof feature has proven to be extremely effective during rainy days.
                   </Card.Text>
                 </Card.Body>
               </Card>
             </Col>
-            <Col xs={12} md={4} lg={4} >
+            <Col xs={12} md={4} lg={3} >
               <Card className='common-card'>
                 <Card.Body>
                   <Card.Title> Abhishek Patel </Card.Title>
@@ -177,7 +178,7 @@ function Home() {
                 </Card.Body>
               </Card>
             </Col>
-            <Col xs={12} md={4} lg={4}>
+            <Col xs={12} md={4} lg={3}>
               <Card className='common-card'>
                 <Card.Body>
                   <Card.Title> Jordi Singh </Card.Title>
@@ -189,6 +190,7 @@ function Home() {
               </Card>
             </Col>
           </Row>
+          
 
 {/* 
           <div className=' customer-carousel'>

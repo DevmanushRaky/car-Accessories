@@ -35,19 +35,23 @@ a:hover{
   color: #f8f9fa;
 }
 
-.nav-link:hover {
-  cursor: pointer;
-  color: rgb(238, 66, 50);
+.nav-link:focus, .nav-link:hover {
+  color:rgb(223, 23, 23)
+}
+
+
+.dropdown-menu {
+  --bs-dropdown-link-active-bg: rgb(255, 255, 255);
 }
 /* hood button css end */
 
-.nav_links:hover {
+.nav_links:focus, .nav_links:hover {
   cursor: pointer;
-  color: rgb(238, 66, 50);
+  color:rgb(223, 23, 23);
 }
 .user_nav_links:hover {
   cursor: pointer;
-  color: rgb(232, 109, 109);
+  color:rgb(223, 23, 23);
 }
 
 .collaspe-button{

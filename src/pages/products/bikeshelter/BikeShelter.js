@@ -1,4 +1,5 @@
 import React from 'react'
+import "./BikeShelter.css"
 import Helmet from '../../../components/helmet/Helmet'
 
 function BikeShelter() {
