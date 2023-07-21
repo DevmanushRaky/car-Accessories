@@ -88,8 +88,8 @@ function Home() {
                   <ListGroup.Item>Easy installation and secure fit</ListGroup.Item>
                 </ListGroup>
                 <Card.Body>
-                  <Link to="/hood">
-                    <Button variant="warning">See full details</Button>
+                  <Link to="/hoods">
+                    <Button variant="warning">See all </Button>
                   </Link>
                 </Card.Body>
               </Card>
@@ -110,8 +110,8 @@ function Home() {
                   <ListGroup.Item>Soft inner lining to prevent scratches</ListGroup.Item>
                 </ListGroup>
                 <Card.Body>
-                  <Link to="/carshelter">
-                    <Button variant="warning">See full details</Button>
+                  <Link to="/carshelters">
+                    <Button variant="warning"> See all </Button>
                   </Link>
                 </Card.Body>
               </Card>
@@ -132,8 +132,8 @@ function Home() {
                   <ListGroup.Item>Soft inner lining to prevent scratches</ListGroup.Item>
                 </ListGroup>
                 <Card.Body>
-                  <Link to="/bikeshelter">
-                    <Button variant="warning">See full details</Button>
+                  <Link to="/bikeshelters">
+                    <Button variant="warning">See aull </Button>
                   </Link>
                 </Card.Body>
               </Card>

@@ -1,0 +1,15 @@
+[
+    {
+      "bikeshelterId": "shelter1",
+      "images": ["../../../assets/BikeProduct/bikeshelter1.jfif", "../../../assets/BikeProduct/bikeshelter2.jfif", "../../../assets/BikeProduct/bikeshelter3.jfif"],
+      "name": "Bike Shelter 11",
+      "description": "Bike shelter description for Shelter 1."
+    },
+    {
+      "bikeshelterId": "shelter2",
+      "images": ["../../../assets/BikeProduct/bikeshelter1.jfif", "../../../assets/BikeProduct/bikeshelter2.jfif", "../../../assets/BikeProduct/bikeshelter3.jfif"],
+      "name": "Bike Shelter 12",
+      "description": "Bike shelter description for Shelter 2."
+    }
+  ]
+  
