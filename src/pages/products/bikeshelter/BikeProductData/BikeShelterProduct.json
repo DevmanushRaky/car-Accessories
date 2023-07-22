@@ -1,0 +1,14 @@
+[
+  {
+    "bikeshelterId": "shelter1",
+    "images": ["https://m.media-amazon.com/images/I/61KAQunLJPL._AC_UF1000,1000_QL80_.jpg", "https://m.media-amazon.com/images/I/61KAQunLJPL._AC_UF1000,1000_QL80_.jpg",  "https://m.media-amazon.com/images/I/61KAQunLJPL._AC_UF1000,1000_QL80_.jpg"],
+    "name": "Bike Shelter 1",
+    "description": "Bike shelter description for Shelter 1."
+  },
+  {
+    "bikeshelterId": "shelter2",
+    "images": ["bikeshelter1.jpg", "bikeshelter2.jpg", "bikeshelter3.jpg"],
+    "name": "Bike Shelter 2",
+    "description": "Bike shelter description for Shelter 2."
+  }
+]

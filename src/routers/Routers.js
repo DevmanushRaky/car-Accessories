@@ -8,7 +8,7 @@ import ErrorPage from "../pages/errorpage/Error"
 import Hood from '../pages/products/hoodcover/HoodCover';
 import CarShelters from '../pages/products/carshelter/CarShelter';
 import BikeShelters from '../pages/products/bikeshelter/BikeShelters';
-import BikeProduct from '../pages/products/bikeshelter/bikeproduct/BikeProduct';
+import BikeProduct from '../pages/products/bikeshelter/BikeProduct';
 
 
 const Routers = () => {

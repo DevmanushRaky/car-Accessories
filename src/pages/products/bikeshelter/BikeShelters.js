@@ -2,7 +2,11 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import { Container, Row, Col, Card, Button } from 'react-bootstrap';
 import Helmet from '../../../components/helmet/Helmet';
-import bikesheltersData from './bikeproduct/BikeShelterProduct.json';
+import bikesheltersData from './BikeProductData/BikeShelterProduct.json';
+import bikephoto1 from './BikeProductData/bikeshelter1.jpg';
+import bikephoto2 from './BikeProductData/bikeshelter2.jpg';
+import bikephoto3 from './BikeProductData/bikeshelter3.jpg';
+
 
 function BikeShelters() {
   return (
