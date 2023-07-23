@@ -24,8 +24,8 @@ function BikeProduct() {
       // Check if the Web Share API is available
       if (navigator.share) {
         // Generate the URL with the product ID
-        // const productUrl = `http://localhost:3000/bikeproduct/${bikeshelterId}`; // Replace  with your website domain
-        const productUrl = `https://vjhc.netlify.app/bikeproduct/${bikeshelterId}`;
+        const productUrl = `http://localhost:3000/bikeproduct/${bikeshelterId}`; // Replace  with your website domain
+        // const productUrl = `https://vjhc.netlify.app/bikeproduct/${bikeshelterId}`;
         await navigator.share({
           url: productUrl,
         });
