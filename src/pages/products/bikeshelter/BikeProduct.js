@@ -73,9 +73,9 @@ function BikeProduct() {
               <Button variant="secondary" className="ms-2" onClick={handleShare}>
                 Share
               </Button>
-              {/* <Button variant="secondary" className="ms-2" onClick={copyLinkToClipboard}>
+              <Button variant="secondary" className="ms-2" onClick={copyLinkToClipboard}>
                 Copy Link
-              </Button> */}
+              </Button>
 
             </Card.Body>
           </Card>
