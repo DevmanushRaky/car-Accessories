@@ -10,5 +10,5 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 Open [https://vjhc.netlify.app/](https://vjhc.netlify.app/) to view it in your browser.
 
 
-### Any error / problem or suggestions contact Deveeloper
+### Any error / problem or suggestions contact Developer
 rakesucluci@gmail.com 

@@ -50,7 +50,7 @@ function BikeProduct() {
       <div className='m-3'>
         <Container>
           <Card>
-            <Carousel>
+          <Carousel>
               {shelter.images.map((image, index) => (
                 <Carousel.Item key={index}>
                   <img
@@ -69,11 +69,10 @@ function BikeProduct() {
               <Link to="/contact">
                 <Button variant="warning">Request to buy</Button>
               </Link>
-
-              <Button variant="secondary" className="ms-2" onClick={handleShare}>
+              <Button variant="secondary" className="ms-2 " onClick={handleShare}>
                 Share
               </Button>
-              <Button variant="secondary" className="ms-2" onClick={copyLinkToClipboard}>
+              <Button variant="secondary" className="ms-2  m-5" onClick={copyLinkToClipboard}>
                 Copy Link
               </Button>
 

@@ -7,7 +7,11 @@
   },
   {
     "bikeshelterId": "shelter2",
-    "images": ["bikeshelter1.jpg", "bikeshelter2.jpg", "bikeshelter3.jpg"],
+    "images": [
+      "/BikeProduct/bikeshelter1.jpg",
+      "/BikeProduct/bikeshelter2.jpg",
+      "/BikeProduct/bikeshelter3.jpg"
+    ],
     "name": "Bike Shelter 2",
     "description": "Bike shelter description for Shelter 2."
   }
