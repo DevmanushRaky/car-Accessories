@@ -1,0 +1,127 @@
+/* Add or modify other CSS styles as needed */
+
+.ag-courses_box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding: 50px 0;
+}
+
+.ag-courses_item {
+  flex-basis: calc(25% - 30px);
+  margin: 0 10px 20px;
+  overflow: hidden;
+  border-radius: 21px;
+  cursor: pointer;
+  background-color: #7874748e;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 20px 10px;
+  position: relative; /* Add this to make the hover effect work */
+}
+
+/* Add hover effect for the cards */
+.ag-courses_item:hover {
+  background-color: #f9b234; /* Change the background color on hover */
+}
+
+.ag-courses-item_title {
+  margin-top: 15px;
+  font-weight: bold;
+  font-size: 30px;
+  display: flex;
+  align-items: center;
+}
+
+/* Style the WhatsApp icon within the title when hovered */
+.whatsapp-item:hover .contact-whatsapp {
+  color: #25d366;
+}
+/* Style the WhatsApp text within the title when hovered */
+.whatsapp-item:hover .whatsapp-title {
+  color: #25d366;
+}
+
+/* Style the call icon within the title when hovered */
+.call-item:hover .contact-call {
+  color: #344ef9;
+}
+/* Style the call text within the title when hovered */
+.call-item:hover .call-title {
+  color: #344ef9;
+}
+
+/* Style the email icon within the title when hovered */
+.email-item:hover .contact-email {
+  color:#e44002;
+}
+/* Style the email text within the title when hovered */
+.email-item:hover .email-title {
+  color:#e44002;
+}
+
+/* Style the location icon within the title when hovered */
+.location-item:hover .contact-location {
+  color:#2afbffbd;
+}
+/* Style the location text within the title when hovered */
+.location-item:hover .location-title {
+  color:#2afbffbd;
+}
+
+.ag-courses-item_bg {
+  height: 128px;
+  width: 128px;
+  background-color: #3ecd5e;
+  z-index: 1;
+  position: absolute;
+  top: -75px;
+  right: -75px;
+  border-radius: 50%;
+  transition: all 0.5s ease;
+}
+
+.ag-courses_item:nth-child(2n) .ag-courses-item_bg {
+  background-color: #344ef9;
+}
+
+.ag-courses_item:nth-child(3n) .ag-courses-item_bg {
+  background-color: #e44002;
+}
+
+.ag-courses_item:nth-child(4n) .ag-courses-item_bg {
+  background-color: #2afbffbd;
+}
+
+.ag-courses_item:nth-child(5n) .ag-courses-item_bg {
+  background-color: #cd3e94;
+}
+
+.ag-courses_item:nth-child(6n) .ag-courses-item_bg {
+  background-color: #4c49ea;
+}
+
+@media only screen and (max-width: 767px) {
+  .ag-courses_item {
+    flex-basis: calc(50% - 30px);
+  }
+
+  .ag-courses-item_title {
+    font-size: 24px;
+  }
+}
+
+/* icons css  */
+.contact-icon {
+  font-size: 2.2rem !important;
+  margin: 5px;
+}
+
+.contact-whatsapp:hover {
+  color: green;
+}
+
