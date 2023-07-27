@@ -1,5 +1,5 @@
 import React from 'react';
-import { Accordion, Card, Button } from 'react-bootstrap';
+import { Accordion } from 'react-bootstrap';
 import Helmet from '../../components/helmet/Helmet';
 
 const Faq = () => {
