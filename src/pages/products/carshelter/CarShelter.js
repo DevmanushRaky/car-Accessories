@@ -2,7 +2,7 @@ import React from 'react'
 import Helmet from '../../../components/helmet/Helmet'
 import { Button, Card, Col, Container, Row } from 'react-bootstrap'
 import { Link } from 'react-router-dom'
-import CarSheltersData from './CarShelterData/CarShelterProduct.json';
+import CarSheltersData from './CarProductData/CarShelterProduct.json';
 
 function CarShelter() {
     return <Helmet title="CarShelter">
