@@ -44,7 +44,6 @@ function Header() {
                             {/* <Nav.Link className="nav_links" as={Link} to="/hood" > Hoods </Nav.Link> */}
                             <Nav.Link className="nav_links" as={Link} to="/carshelters" > Car Shelters </Nav.Link>
                             <Nav.Link className="nav_links" as={Link} to="/bikeshelters" > Bike Shelters </Nav.Link>
-                            <Nav.Link className="nav_links" as={Link} to="/about" > About </Nav.Link>
                             <Nav.Link className="nav_links" as={Link} to="/contact"> Contact </Nav.Link>
                             <ul type="none" className="header-social-links">
 

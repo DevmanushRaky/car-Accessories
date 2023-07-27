@@ -1,0 +1,23 @@
+[
+    {
+      "carshelterId": "shelter1",
+      "images": [
+        "/carProduct/carshelter1.jpg",
+        "/carProduct/carshelter2.jpg",
+        "/carProduct/carshelter3.jpg"
+      ],
+      "name": "Car Shelter 1",
+      "description": "Car shelter description for Shelter 1."
+    },
+    {
+      "carshelterId": "shelter2",
+      "images": [
+        "/carProduct/carshelter2.jpg",
+        "/carProduct/carshelter1.jpg",
+        "/carProduct/carshelter3.jpg"
+      ],
+      "name": "Car Shelter 2",
+      "description": "Car shelter description for Shelter 2."
+    }
+  ]
+  

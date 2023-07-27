@@ -1,0 +1,22 @@
+[
+    {
+        "jeepsyFId": "jf1",
+        "images": [
+            "/carProduct/carshelter1.jpg",
+            "/carProduct/carshelter2.jpg",
+            "/carProduct/carshelter3.jpg"
+        ],
+        "name": "Jeepsy Full  1",
+        "description": "Car shelter description for Shelter 1."
+    },
+    {
+        "jeepsyFId": "jf2",
+        "images": [
+            "/carProduct/carshelter2.jpg",
+            "/carProduct/carshelter1.jpg",
+            "/carProduct/carshelter3.jpg"
+        ],
+        "name": "Jeepsy Full 2",
+        "description": "Car shelter description for Shelter 2."
+    }
+]
