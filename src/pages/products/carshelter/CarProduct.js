@@ -2,7 +2,7 @@ import React from 'react';
 import Helmet from '../../../components/helmet/Helmet';
 import { Container, Card, Button, Carousel } from 'react-bootstrap';
 import { Link, useParams } from 'react-router-dom';
-import CarSheltersProduct from './CarShelterData/CarShelterProduct.json';
+import CarSheltersProduct from './CarProductData/CarShelterProduct.json';
 
 
 function CarProduct() {
